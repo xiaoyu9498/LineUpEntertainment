@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_back"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_oval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/ic_photo"
+            android:layout_centerHorizontal="true"/>
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_man"-->
+<!--                android:layout_width="82dp"-->
+<!--                android:layout_height="82dp"-->
+<!--                android:src="@drawable/ic_man"-->
+<!--                android:layout_centerInParent="true"/>-->
+
+<!--        </RelativeLayout>-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_woman"-->
+<!--                android:layout_width="82dp"-->
+<!--                android:layout_height="82dp"-->
+<!--                android:src="@drawable/ic_woman"-->
+<!--                android:layout_centerInParent="true"/>-->
+
+<!--        </RelativeLayout>-->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

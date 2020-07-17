@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf4ff"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bg_digitalscreen"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ip"
+        android:textColor="#333"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"/>
+    <ImageView
+        android:id="@+id/iv_state"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_unconnect"
+        android:layout_toRightOf="@+id/tv_ip"
+        android:paddingTop="16dp"
+        android:paddingStart="6dp"/>
+
+    <View
+        android:id="@+id/v_center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginEnd="300dp"
+        android:layout_below="@+id/v_center">
+
+        <RelativeLayout
+            android:id="@+id/rl_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_my"
+                android:layout_width="180dp"
+                android:layout_height="260dp"
+                android:src="@drawable/ic_girl_stand_normal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_hi_null"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_emoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"
+                    android:textColor="#f99746"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_v_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_customer_4"
+                android:layout_width="180dp"
+                android:layout_height="260dp"
+                android:src="@drawable/ic_p4_stand_normal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_hi_null"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_emoji_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"
+                    android:textColor="#f99746"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_v_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_customer_3"
+                android:layout_width="180dp"
+                android:layout_height="260dp"
+                android:src="@drawable/ic_p3_stand_normal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_hi_null"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_emoji_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"
+                    android:textColor="#f99746"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_v_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_customer_2"
+                android:layout_width="180dp"
+                android:layout_height="260dp"
+                android:src="@drawable/ic_p2_stand_normal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_hi_null"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_emoji_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"
+                    android:textColor="#f99746"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_v_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_customer_1"
+                android:layout_width="180dp"
+                android:layout_height="260dp"
+                android:src="@drawable/ic_p1_stand_normal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_hi_null"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_emoji_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"
+                    android:textColor="#f99746"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
